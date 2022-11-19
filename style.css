@@ -13,17 +13,23 @@
     text-decoration-style: wavy;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 /*
     Custom CSS
 */
 
 h1 {
-    font-size: 75px;
+    font-size: 5em;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 4em;
     font-weight: 700;
 }
 
@@ -38,6 +44,30 @@ h2 {
     -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+.product-card-image {
+    border-radius: 16px;
+}
+
+.product-card-bg-1 {
+    background: #ECECEC;
+}
+
+.product-card-bg-2 {
+    background: #CFF9FF;
+}
+
+.product-card-bg-3 {
+    background: #FEDCCA;
+}
+
+.product-card-bg-4 {
+    background: #E6C8CC;
+}
+
+/* background: #F7F1E3; */
+/* background: #FEF7B2; */
+
 
 /*
     Hero section
