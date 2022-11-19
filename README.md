@@ -10,7 +10,8 @@
 > PocketDevs CEO & Co-founder **[Bryl Lim](https://github.com/bryllim)**
 
 ## 👨‍💻 Authors
-> Developed and Maintained by **[Alan Demol](https://github.com/alandemol2022)** and **[Jason Lerit](https://github.com/jasonlerit)**
+> - **[Alan Demol](https://github.com/alandemol2022)**
+> - **[Jason Lerit](https://github.com/jasonlerit)**
 
 ---
 
