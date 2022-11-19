@@ -1,4 +1,22 @@
 
+/* Override bootstrap class */
+
+.navbar-brand {
+    margin-right: 5rem;
+}
+
+.active {
+    text-decoration: underline;
+    -webkit-text-decoration-color: #30CFD0;
+    text-decoration-color: #30CFD0;
+    -webkit-text-decoration-style: wavy;
+    text-decoration-style: wavy;
+}
+
+/*
+    Custom CSS
+*/
+
 h1 {
     font-size: 75px;
     font-weight: 700;
