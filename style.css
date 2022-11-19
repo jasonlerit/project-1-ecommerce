@@ -1,0 +1,71 @@
+
+h1 {
+    font-size: 75px;
+    font-weight: 700;
+}
+
+.custom-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.custom-text {
+    background: linear-gradient(to right, #30CFD0 0%, #6012bf 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+/*
+    Hero section
+*/
+
+.custom-hero-stats {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.custom-hero-bg {
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    background: linear-gradient(to top, #30CFD0 0%, #6012bf 100%);
+}
+
+.custom-hero-image {
+    height: 400px;
+}
+
+/*
+    Tablet
+*/
+@media screen and (min-width: 600px) {
+    .custom-padding {
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+    .custom-hero-image {
+        height: 450px;
+    }
+}
+
+/*
+    Laptop
+*/
+@media screen and (min-width: 992px) {
+    .custom-padding {
+        padding-top: 144px;
+        padding-bottom: 144px;
+    }
+    .custom-hero-image {
+        height: 470px;
+    }
+}
+
+/*
+    Desktop
+*/
+@media screen and (min-width: 1200px) {
+    .custom-hero-image {
+        height: 600px;
+    }
+}
