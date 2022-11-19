@@ -74,7 +74,7 @@ h2 {
 */
 
 .custom-hero-stats {
-    font-size: 30px;
+    font-size: 2em;
     font-weight: 700;
 }
 
@@ -97,7 +97,7 @@ h2 {
         padding-bottom: 112px;
     }
     .custom-hero-image {
-        height: 450px;
+        height: 28em;
     }
 }
 
@@ -110,7 +110,7 @@ h2 {
         padding-bottom: 144px;
     }
     .custom-hero-image {
-        height: 470px;
+        height: 30em;
     }
 }
 
@@ -119,6 +119,6 @@ h2 {
 */
 @media screen and (min-width: 1200px) {
     .custom-hero-image {
-        height: 600px;
+        height: 36em;
     }
 }
