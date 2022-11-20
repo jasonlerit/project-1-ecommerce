@@ -89,6 +89,15 @@ h2 {
 }
 
 /*
+    Cart
+*/
+
+#cart-body {
+    height: 100vh;
+    max-width: 500px;
+}
+
+/*
     Tablet
 */
 @media screen and (min-width: 600px) {
