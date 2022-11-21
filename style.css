@@ -5,7 +5,7 @@
     margin-right: 5rem;
 }
 
-.active {
+.navbar .active {
     text-decoration: underline;
     -webkit-text-decoration-color: #30CFD0;
     text-decoration-color: #30CFD0;
