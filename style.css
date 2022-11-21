@@ -45,6 +45,10 @@ h2 {
 	-webkit-text-fill-color: transparent;
 }
 
+.custom-border-radius {
+    border-radius: 16px;
+}
+
 .product-card-image {
     border-radius: 16px;
 }
@@ -65,9 +69,13 @@ h2 {
     background: #E6C8CC;
 }
 
-/* background: #F7F1E3; */
-/* background: #FEF7B2; */
+.product-card-bg-5 {
+    background: #F7F1E3;
+}
 
+.product-card-bg-6 {
+    background: #FEF7B2;
+}
 
 /*
     Hero section
