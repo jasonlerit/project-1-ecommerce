@@ -56,83 +56,124 @@
     <section class="container">
         <div class="row">
             <!-- Filter -->
-            <div class="col-md-4">
+            <div class="col-md-3">
 
-                <form action="/action_page.php ">
-                    <div>
-                        <div>
-                            <label class="fw-bold">Category</label>
+                <form action="#">
+                    
+                    <!-- Category -->
+                    <div class="pb-3">
+                        <h6>
+                            Category
+                        </h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="men">
+                            <label class="form-check-label" for="men">
+                                Men's Apparel
+                            </label>
                         </div>
-                        <input type="checkbox">
-                        <label> Adults</label><br>
-                        <input type="checkbox">
-                        <label>Men</label><br>
-                        <input type="checkbox">
-                        <labe> Women</label><br>
-                        <input type="checkbox">
-                        <labe>Kids</label><br>
-                    </div>
-                    <div>
-                        <div>
-                            <label class="fw-bold">Category</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="women">
+                            <label class="form-check-label" for="women">
+                                Women's Apparel
+                            </label>
                         </div>
-                        <input type="checkbox">
-                        <label>Adidas</label><br>
-                        <input type="checkbox">
-                        <label>Nike</label><br>
-                        <input type="checkbox">
-                        <labe>Dieckes</label><br>
-                        <input type="checkbox">
-                        <labe>Jag</label><br> <br>
-                    </div>
-                    <div>
-                        <label for="customRange" class="form-label"><strong>Price</strong></label>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" id="pwd" placeholder="min">
-                        </div>
-                        <div class="col-md-6">
-                            <input type="text" class="form-control" id="pwd" placeholder="max">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="kids">
+                            <label class="form-check-label" for="kids">
+                                Kids
+                            </label>
                         </div>
                     </div>
-                    <div class="container mt-3">
-                        <div>
-                            <h2>Star Rating</h2>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+
+                    <!-- Brand -->
+                    <div class="pb-3">
+                        <h6>
+                            Brand
+                        </h6>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="adidas">
+                            <label class="form-check-label" for="adidas">
+                                Adidas
+                            </label>
                         </div>
-                        <div>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="bench">
+                            <label class="form-check-label" for="bench">
+                                Bench
+                            </label>
                         </div>
-                        <div>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <div>
-                            <span class="fa fa-star checked"></span>
-                            <span class="fa fa-star"></span>
-                        </div>
-                        <div>
-                            <span class="fa fa-star"></span>
-                        </div><br>
-                        <div>
-                            <button class="btn btn-primary">
-                                Apply
-                            </button>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="penshoppe">
+                            <label class="form-check-label" for="penshoppe">
+                                Penshoppe
+                            </label>
                         </div>
                     </div>
+
+                    <!-- Price range -->
+                    <div class="pb-3">
+                        <h6>
+                            Price
+                        </h6>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" placeholder="min">
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" placeholder="max">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Rating -->
+                    <div class="pb-5">
+                        <h6>
+                            Rating
+                        </h6>
+                        <div class="d-grid gap-2">
+                            <div class="d-grid">
+                                <button class="btn btn-outline-dark">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </button>
+                            </div>
+                            <div class="d-grid">
+                                <button class="btn btn-outline-dark">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </button>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <button class="btn btn-outline-dark">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </button>
+                                <button class="btn btn-outline-dark">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </button>
+                                <button class="btn btn-outline-dark">
+                                    <i class="fa-regular fa-star"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Apply button -->
+                    <div class="d-grid">
+                        <button class="btn btn-dark py-2 px-4">Apply</button>
+                    </div>
+
                 </form>
             </div>
             <!-- Products -->
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <div class="row">
                     <!-- Item 1 -->
                     <div class="col-md-4">
