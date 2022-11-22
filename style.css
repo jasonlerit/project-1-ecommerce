@@ -57,30 +57,6 @@ h2 {
     border-radius: 16px;
 }
 
-.product-card-bg-1 {
-    background: #ECECEC;
-}
-
-.product-card-bg-2 {
-    background: #CFF9FF;
-}
-
-.product-card-bg-3 {
-    background: #FEDCCA;
-}
-
-.product-card-bg-4 {
-    background: #E6C8CC;
-}
-
-.product-card-bg-5 {
-    background: #F7F1E3;
-}
-
-.product-card-bg-6 {
-    background: #FEF7B2;
-}
-
 /*
     Hero section
 */
@@ -98,6 +74,15 @@ h2 {
 
 .custom-hero-image {
     height: 20em;
+}
+
+/*
+    Products
+*/
+
+.item:hover {
+    transform: scale(1.05);
+    transition-duration: 200ms;
 }
 
 /*
