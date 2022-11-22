@@ -24,12 +24,12 @@
 */
 
 h1 {
-    font-size: 5em;
+    font-size: 3em;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 2em;
     font-weight: 700;
 }
 
@@ -109,6 +109,14 @@ h2 {
     Tablet
 */
 @media screen and (min-width: 600px) {
+    h1 {
+        font-size: 4em;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 3em;
+        font-weight: 700;
+    }
     .custom-padding {
         padding-top: 112px;
         padding-bottom: 112px;
@@ -122,6 +130,14 @@ h2 {
     Laptop
 */
 @media screen and (min-width: 992px) {
+    h1 {
+        font-size: 5em;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 4em;
+        font-weight: 700;
+    }
     .custom-padding {
         padding-top: 144px;
         padding-bottom: 144px;
