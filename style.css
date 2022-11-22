@@ -2,7 +2,7 @@
 /* Override bootstrap class */
 
 .navbar-brand {
-    margin-right: 5rem;
+    margin-right: 5em;
 }
 
 .navbar .active {
