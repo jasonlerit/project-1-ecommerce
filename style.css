@@ -45,6 +45,10 @@ h2 {
 	-webkit-text-fill-color: transparent;
 }
 
+.custom-orange {
+    color: orange;
+}
+
 .custom-border-radius {
     border-radius: 16px;
 }
