@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -54,17 +55,17 @@
         </nav>
     </header>
 
-    <!-- Content -->
-    <div class="container mt-5">
+    <!-- Product details -->
+    <div class="container pt-5">
         <!-- Product details -->
-        <div class="row gy-3">
-            <div class="col-lg-6">
+        <div class="row gy-3 pb-5">
+            <div data-aos="fade-right" data-aos-duration="1000" class="col-lg-6">
                 <div class="custom-border-radius " style="height: 30rem">
                     <img class="card-img-top custom-border-radius" src="./images/products/adidas_1.png"
                         alt="Card image cap">
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="col-lg-6">
                 <h1 class="fs-2">
                     T-Shirt with shorts crew neck suit
                 </h1>
@@ -102,87 +103,89 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <hr class="my-5">
-
-        <!-- Reviews -->
-        <div class="row">
-            <div class="py-0">
-                <h5 class="fs-bold">Product Reviews</h5>
-                <!-- Review 1 -->
-                <div class="card border-0">
-                    <div class="card-body">
-                        <div class="d-flex gap-2">
-                            <img class="img-fluid rounded-circle" style="height: 4em;"
-                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.webp"
-                                alt="">
+    <!-- Reviews -->
+    <div class="container">
+        <div data-aos="fade-right" data-aos-duration="1000" class="row">
+            <h5>
+                <span class="custom-text">Product</span> Reviews
+            </h5>
+        </div>
+        <div>
+            <!-- Review 1 -->
+            <div data-aos="fade-up" data-aos-duration="1000" class="card border-0">
+                <div class="card-body">
+                    <div class="d-flex gap-2">
+                        <img class="img-fluid rounded-circle" style="height: 4em;"
+                            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.webp"
+                            alt="">
+                        <div>
+                            <h5 class="card-title fs-bold">
+                                Anna Smith
+                            </h5>
                             <div>
-                                <h5 class="card-title fs-bold">
-                                    Anna Smith
-                                </h5>
-                                <div>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-regular fa-star"></i>
                             </div>
                         </div>
-                        <p class="card-text text-muted">
-                            Maganda sya and makapal kuha uli ng blk seller. Thanks!
-                        </p>
                     </div>
+                    <p class="card-text text-muted">
+                        Maganda sya and makapal kuha uli ng blk seller. Thanks!
+                    </p>
                 </div>
-                <!-- Review 2 -->
-                <div class="card border-0">
-                    <div class="card-body">
-                        <div class="d-flex gap-2">
-                            <img class="img-fluid rounded-circle" style="height: 4em;"
-                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
-                                alt="">
+            </div>
+            <!-- Review 2 -->
+            <div data-aos="fade-up" data-aos-duration="1000" class="card border-0">
+                <div class="card-body">
+                    <div class="d-flex gap-2">
+                        <img class="img-fluid rounded-circle" style="height: 4em;"
+                            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                            alt="">
+                        <div>
+                            <h5 class="card-title fs-bold">
+                                Lisa Cudrow
+                            </h5>
                             <div>
-                                <h5 class="card-title fs-bold">
-                                    Lisa Cudrow
-                                </h5>
-                                <div>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-regular fa-star"></i>
                             </div>
                         </div>
-                        <p class="card-text text-muted">
-                            Maganda po. Salamat po bilis dumating.
-                        </p>
                     </div>
+                    <p class="card-text text-muted">
+                        Maganda po. Salamat po bilis dumating.
+                    </p>
                 </div>
-                <!-- Review 3 -->
-                <div class="card border-0">
-                    <div class="card-body">
-                        <div class="d-flex gap-2">
-                            <img class="img-fluid rounded-circle" style="height: 4em;"
-                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
-                                alt="">
+            </div>
+            <!-- Review 3 -->
+            <div data-aos="fade-up" data-aos-duration="1000" class="card border-0">
+                <div class="card-body">
+                    <div class="d-flex gap-2">
+                        <img class="img-fluid rounded-circle" style="height: 4em;"
+                            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                            alt="">
+                        <div>
+                            <h5 class="card-title fs-bold">
+                                John Doe
+                            </h5>
                             <div>
-                                <h5 class="card-title fs-bold">
-                                    John Doe
-                                </h5>
-                                <div>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-solid fa-star custom-orange"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                </div>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-solid fa-star custom-orange"></i>
+                                <i class="fa-regular fa-star"></i>
                             </div>
                         </div>
-                        <p class="card-text text-muted">
-                            Thank you for a very nice quality of drifit. Ganda tingnan for our volleyball uniform.
-                        </p>
                     </div>
+                    <p class="card-text text-muted">
+                        Thank you for a very nice quality of drifit. Ganda tingnan for our volleyball uniform.
+                    </p>
                 </div>
             </div>
         </div>
@@ -190,14 +193,14 @@
 
     <!-- Similar items -->
     <div class="container custom-padding">
-        <div data-aos="zoom-in" data-aos-duration="1000" class="row pb-5">
+        <div data-aos="zoom-in" data-aos-duration="1000" class="row pb-5 text-center">
             <h2>
                 <span class="custom-text">Similar</span> Items
             </h2>
         </div>
         <div class="row">
-            <div data-aos="zoom-in" data-aos-duration="1000" class="col-md-6 col-lg-4 col-xl-3 px-0">
-                <div class="card border-0">
+            <a href="./product.html" class="item col-md-6 col-lg-4 col-xl-3 px-0 text-decoration-none text-dark">
+                <div data-aos="zoom-in" data-aos-duration="1000" class="card border-0">
                     <div class="card-body">
                         <div class="custom-border-radius " style="height: 18em">
                             <img class="card-img-top custom-border-radius" src="./images/products/bench_1.png"
@@ -211,9 +214,9 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" class="col-md-6 col-lg-4 col-xl-3 px-0">
-                <div class="card border-0">
+            </a>
+            <a href="./product.html" class="item col-md-6 col-lg-4 col-xl-3 px-0 text-decoration-none text-dark">
+                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="200" class="card border-0">
                     <div class="card-body">
                         <div class="custom-border-radius " style="height: 18em">
                             <img class="card-img-top custom-border-radius" src="./images/products/bench_2.png"
@@ -227,9 +230,9 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" class="col-md-6 col-lg-4 col-xl-3 px-0">
-                <div class="card border-0">
+            </a>
+            <a href="./product.html" class="item col-md-6 col-lg-4 col-xl-3 px-0 text-decoration-none text-dark">
+                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400" class="card border-0">
                     <div class="card-body">
                         <div class="custom-border-radius " style="height: 18em">
                             <img class="card-img-top custom-border-radius" src="./images/products/folded_hung_1.png"
@@ -243,9 +246,9 @@
                         </p>
                     </div>
                 </div>
-            </div>
-            <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600" class="col-md-6 col-lg-4 col-xl-3 px-0">
-                <div class="card border-0">
+            </a>
+            <a href="./product.html" class="item col-md-6 col-lg-4 col-xl-3 px-0 text-decoration-none text-dark">
+                <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="600" class="card border-0">
                     <div class="card-body">
                         <div class="custom-border-radius " style="height: 18em">
                             <img class="card-img-top custom-border-radius" src="./images/products/folded_hung_2.png"
@@ -259,7 +262,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 
@@ -472,6 +475,10 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
