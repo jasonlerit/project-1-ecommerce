@@ -11,7 +11,7 @@
 
 ## 👨‍💻 Authors
 > - **[Alan Demol](https://github.com/alandemol2022)**
-> - **[wt404](https://github.com/wt404)**
+> - **[Jason Lerit](https://github.com/jasonlerit)**
 
 ---
 
